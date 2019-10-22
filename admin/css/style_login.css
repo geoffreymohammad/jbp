@@ -1,0 +1,70 @@
+body{
+	margin:0 auto;
+	background-color:#f6f6f6;
+	font-family: Arial, sans-serif;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color: #f6f6f6;
+	background-image: none;
+	color: #000000;
+}
+
+.logo{
+	width:25%;
+	margin:20px auto;
+	border-spacing:0px;
+}
+
+.logo tr{
+	text-align:center;
+}
+
+#logo{
+	height:200px;
+	padding:5px;
+	border-radius: 5px;
+}
+
+.grid-login{
+	width:25%;
+	margin:auto;
+	background-color:#cb3030;
+	border-radius:5px;
+	border:1px solid #d3d3d3;
+	border-spacing:10px 0px;
+}
+
+.grid-login tr td{
+	background-color:#cb3030;
+	color:#f6f6f6;
+	padding:5px 5px;
+	font-size:20px;
+	border-spacing:0px;
+}
+
+.grid-login tr td input[type=text],.grid-login tr td input[type=password]{
+	width:100%;
+	padding:5px;
+	background-color:#faf6f6;
+	color:000000;
+	font-size:30px;
+}
+
+.grid-login tr td input[type=text]:active,.grid-login tr td input[type=password]:active{
+	background-color:#faf6f6;
+}
+
+.grid-login tr td input[type=submit]{
+	float: right;
+	border-radius:5px;
+	background-color:#faf6f6;
+	color:#000000;
+	font-size:20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.grid-login tr td p{
+	color:#faf6f6;
+}
